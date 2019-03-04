@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 
 app.post('/send', (req, res)=> {
     const data = {
-      from: 'HealthCareAuto <iampavan05@gmail.com>',
+      from: 'Excited User <me@samples.mailgun.org>',
       to: req.body.email,  //req.body.email
       subject: req.body.subject,
       text: req.body.message
